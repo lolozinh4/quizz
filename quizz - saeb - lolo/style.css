@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #c62611, #e6f7ff);
+    background: linear-gradient(to right, #e426b5, #e6f7ff);
     margin: 0;
     padding: 20px;
 }
@@ -11,11 +11,11 @@ body {
     margin: auto;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(189, 54, 169, 0.1);
 }
 
 h1, h2, label {
-    color: #333;
+    color: #f57bda;
 }
 
 input, select, button {
@@ -28,7 +28,7 @@ input, select, button {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #d11178;
     color: white;
     font-weight: bold;
     transition: background-color 0.3s ease;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #eb1aba;
 }
 
 #answers button {
@@ -63,7 +63,7 @@ button.correct {
 }
 
 button.wrong {
-    background-color: #dc3545 !important;
+    background-color: #f28181 !important;
     color: white;
 }
 
@@ -79,6 +79,6 @@ button.wrong {
 #progress {
     height: 16px;
     width: 0%;
-    background-color: #007bff;
+    background-color: #d507a8;
     transition: width 0.3s ease;
 }
